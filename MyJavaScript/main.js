@@ -1,19 +1,16 @@
-'use strict';
+"use strict";
 
-const color = prompt('Color?')
+{
+  const scores = [
+    70,
+    90,
+    80,
+    85,
+  ]
 
-switch (color) {
-    case 'red':
-        console.log('Stop!');
-        break;
-    case 'yellow':
-        console.log('Slow down!');
-        break;
-    case 'blue':
-    case 'green':
-        console.log('Go!');
-        break;
-    default:
-        console.log('Wrong color');
-        break;
+    console.log(scores[2])
+    console.log(scores.length)
+    scores[1] = 95
+    console.log(scores)
 }
+s
