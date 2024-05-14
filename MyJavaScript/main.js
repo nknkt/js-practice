@@ -13,4 +13,3 @@
     scores[1] = 95
     console.log(scores)
 }
-s
